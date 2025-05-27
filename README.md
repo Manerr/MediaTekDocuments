@@ -9,8 +9,8 @@
 #### installation : il suffit d'éxecuter l'executable fourni dans les releases, après avoir suivi les instructions de l'api : https://github.com/Manerr/rest_mediatekdocuments/
 https://github.com/Manerr/MediaTekDocuments/releases/tag/release
 
-Pour essayer, voici les comptes utilisateurs:
+Pour essayer, voici les comptes utilisateurs: (ne respectant pas les règles de sécurité d'un mot de passe, ils sont ici juste pour test)
 
-INSERT INTO `utilisateur`(`id`, `login`, `password`, `idService`) VALUES ('00002','admin',SHA2("1adminpass!",256),'1')
-INSERT INTO `utilisateur`(`id`, `login`, `password`, `idService`) VALUES ('00001','pret',SHA2("paul",256),'3')
-INSERT INTO `utilisateur`(`id`, `login`, `password`, `idService`) VALUES ('00003','nocompte',SHA2("mdp",256),'3')
+'admin',"1adminpass!"
+'pret',"paul"
+'nocompte',"mdp"
